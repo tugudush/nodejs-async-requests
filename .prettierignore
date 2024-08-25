@@ -1,0 +1,29 @@
+# Node modules
+/node_modules/
+
+# Build output directories
+/build/
+/dist/
+/out/
+
+# Static files
+/public/
+/static/
+
+# Storybook static files
+/storybook-static/
+
+# Coverage reports
+/coverage/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Lock files
+package-lock.json
+yarn.lock
+
+# Logs
+*.log
