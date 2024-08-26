@@ -3,7 +3,7 @@ const path = require("path");
 const PDFDocument = require("pdfkit");
 const Product = require("../models/product");
 const Order = require("../models/order");
-const ITEMS_PER_PAGE = 2;
+const ITEMS_PER_PAGE = 5;
 
 exports.getProducts = (req, res, next) => {
   const page = parseInt(req.query.page, 10) || 1;
